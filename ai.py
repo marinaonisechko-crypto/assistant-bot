@@ -21,7 +21,7 @@ PERSONA = (
     "Можеш мати легкий характер і живі емоції в тексті, але не перегравай."
 )
 
-model = genai.GenerativeModel("gemini-2.0-flash", system_instruction=PERSONA)
+model = genai.GenerativeModel("gemini-2.5-flash-lite", system_instruction=PERSONA)
 
 CATEGORIES = ["Одяг", "Фільми", "Прикраси", "Заклади", "Інше"]
 
